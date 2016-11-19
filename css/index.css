@@ -1,0 +1,228 @@
+.public-container .index-focus {
+    width: 100%;
+	height: 54px;
+}
+.public-container .index-focus .chinese {
+	float: left;
+	font-weight: bold;
+	font-size: 24px;
+	display: block;
+	margin-top: 16px;
+	color: red;
+}
+.public-container .index-focus .english {
+	float: left;
+	font-weight: bold;
+	font-size: 10px;
+	display: block;
+	margin-top: 29px;
+	margin-left: 8px;
+	color: #ccc;
+}
+.public-container .index-focus img {
+	float: right;
+	display: block;
+	width: 196px;
+	height: 40px;
+}
+.index-menu .menu1 {
+	float: left;
+	padding: 20px;
+	margin-right: 6px;
+	width: 364px;
+}
+.index-menu .menu1 .date1 {
+	float: left;
+	background: url(../images/time-icon.jpg) no-repeat;
+	width: 68px;
+	height: 65px;
+}
+.index-menu .menu1 .date1 .y-m {
+	display: block;
+	padding-left: 5px;
+	padding-top: 4px;
+	font-size: 15px;
+	color: #666;
+}
+.index-menu .menu1 .date1 .day {
+	width: 68px;
+	text-align: center;
+	padding-left: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #999;
+	font-weight: bold;
+}
+.index-menu .menu1 .text {
+	width: 280px;
+	float: right;
+}
+.index-menu .menu1 .text .title{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #900;
+	margin-bottom: 10px;
+}
+.index-menu .menu1 .body {
+	font-size: 12px;
+	color: #333;
+	line-height: 24px;
+}
+.index-menu .menu2 {
+	float: left;
+	padding: 20px;
+	margin-right: 6px;
+	width: 364px;
+}
+.index-menu .menu2 .date2 {
+	float: left;
+	background: url(../images/time-icon.jpg) no-repeat;
+	width: 68px;
+	height: 65px;
+}
+.index-menu .menu2 .date2 .y-m {
+	display: block;
+	padding-left: 5px;
+	padding-top: 4px;
+	font-size: 15px;
+	color: #666;
+}
+.index-menu .menu2 .date2 .day {
+	width: 68px;
+	text-align: center;
+	padding-left: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #999;
+	font-weight: bold;
+}
+.index-menu .menu2 .text {
+	width: 280px;
+	float: right;
+}
+.index-menu .menu2 .text .title{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #900;
+	margin-bottom: 10px;
+}
+.index-menu .menu2 .body {
+	font-size: 12px;
+	color: #333;
+	line-height: 24px;
+}
+.index-menu .menu3 {
+	float: left;
+	padding: 20px;
+	margin-right: 6px;
+	width: 364px;
+}
+.index-menu .menu3 .date3 {
+	float: left;
+	background: url(../images/time-icon.jpg) no-repeat;
+	width: 68px;
+	height: 65px;
+}
+.index-menu .menu3 .date3 .y-m {
+	display: block;
+	padding-left: 5px;
+	padding-top: 4px;
+	font-size: 15px;
+	color: #666;
+}
+.index-menu .menu3 .date3 .day {
+	width: 68px;
+	text-align: center;
+	padding-left: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #999;
+	font-weight: bold;
+}
+.index-menu .menu3 .text {
+	width: 280px;
+	float: right;
+}
+.index-menu .menu3 .text .title{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #900;
+	margin-bottom: 10px;
+}
+.index-menu .menu3 .body {
+	font-size: 12px;
+	color: #333;
+	line-height: 24px;
+}
+dt,dl,dd {
+	display: block;
+}
+.index-panel .news {
+	float: left;
+	width: 370px;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+.index-panel .news .title a {
+	float: left;
+	width: 200px;
+	height: 26px;
+	background: url(../images/title.jpg) no-repeat;
+	background-position: left -32px;
+	display: inline-block;
+	vertical-align: top;
+}
+.index-panel .news .title {
+	float: left;
+	width: 370px;
+	display: block;
+	background-image: url(../images/title-bg-line.jpg);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	margin-bottom: 9px;
+	height: 30px;
+}	
+.index-panel .news .body  {
+	line-height:40px;
+}
+.index-link {
+	float: left;
+	margin-left:6px;
+	margin-top: 30px;
+}
+.index-link li {
+	float: left;
+	margin-left: 36px;
+	line-height: 1.5em;
+}
+.index-link li a {
+	color: blue;
+}
+.index-special {
+	float: left;
+	margin-left: 12px;
+	margin-bottom: 20px;
+}
+.index-special li {
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	line-height: 1.5em;
+}
+.index-special li a {
+	color: red;
+}
+.public-footer ul {
+	margin-left: 164px;
+	margin-top: 32px;
+}
+.public-footer li {
+	float: left;
+
+}
+.public-footer li a {
+	text-align: center;
+}
