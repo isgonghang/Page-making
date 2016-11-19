@@ -1,0 +1,502 @@
+.index-banner1 .bg {
+    width:1280px;
+    height: 725px;
+    margin: 0 auto;
+    display: block;
+    background: url(../images/banner1-bg.png);
+
+}
+/*.index-banner1 .bg .mask{
+	width:1280px;
+    height: 725px;
+    margin: 0 auto;
+    display: block;
+    background: url(../images/bgmask.png);
+    opacity:0.1;
+}*/
+.index-banner1 .bg .title {
+	font-size: 60px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	color: #fffdfd;
+	margin-left: 116px;
+	padding-top: 230px;
+
+}
+.index-banner1 .bg .text {
+	margin-left: 124px;
+	margin-top: 30px;
+	font-size: 21px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	line-height: 32px;
+	color: #fffdfd;
+}
+.index-banner1 .bg .start {
+	width: 330px;
+	height: 63px;
+	background: url(../images/button.png);
+	margin-left: 126px;
+	margin-top: 67px;
+}
+.index-banner1 .bg .start .name a{
+	font-size: 30px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+.index-banner2 {
+	background-color: #fff;
+	width: 1280px;
+	height: 251px;
+	margin: 0 auto;
+	margin-top: -162px;
+}
+.index-banner2 img {
+	padding-top: 132px;
+	overflow: hidden;
+}
+.index-banner2 img {
+    float: left;
+	margin-left: 80px;
+}
+.index-banner2 .part1 {
+	float: left;
+	margin-left: 89px;
+}
+.index-banner2 .part1 .part1-logo {
+    width: 42px;
+    height: 42px;
+    margin: 46px auto;
+	background-image: url(../images/part1-logo.png);
+	background-repeat: no-repeat;
+}
+.index-banner2 .part1 p {
+	font-size: 14px;
+	font-family: "黑体";
+	line-height: 18px;
+}
+.index-banner2 .part2 {
+	float: left;
+	margin-left: 92px;
+}
+.index-banner2 .part2 .part2-logo {
+    width: 42px;
+    height: 42px;
+    margin: 46px auto;
+	background-image: url(../images/part2-logo.png);
+	background-repeat: no-repeat;
+}
+.index-banner2 .part2 p {
+	font-size: 14px;
+	font-family: "黑体";
+	line-height: 18px;
+}
+.index-banner2 .part3 {
+	float: left;
+	margin-left: 70px;
+}
+.index-banner2 .part3 .part3-logo {
+    width: 42px;
+    height: 42px;
+    margin: 46px auto;
+	background-image: url(../images/part3-logo.png);
+	background-repeat: no-repeat;
+}
+.index-banner2 .part3 p {
+	font-size: 14px;
+	font-family: "黑体";
+	line-height: 18px;
+}
+.index-banner2 .part4 {
+	float: left;
+	margin-left: 72px;
+}
+.index-banner2 .part4 .part4-logo {
+    width: 42px;
+    height: 42px;
+    margin: 46px auto;
+	background-image: url(../images/part4-logo.png);
+	background-repeat: no-repeat;
+}
+.index-banner2 .part4 p {
+	font-size: 14px;
+	font-family: "黑体";
+	line-height: 18px;
+}
+
+.index-slogan {
+	width: 1280px;
+	height: 360px;
+	background-color: #ededed;
+	margin: 0 auto;
+}
+.index-slogan .logo {
+    width:92px;
+    height: 92px;
+    top: 80px;
+    position: relative;
+    margin: 0 auto;
+	background-image: url(../images/slogan-logo.png);
+	background-repeat: no-repeat;
+}
+.index-slogan .text{
+	margin-top: 128px;
+	font-size: 54px;
+
+	line-height: 57px;
+	font-family: "黑体";
+	text-align: center;
+	color: #a0a1a1;
+}
+
+.index-search {
+    width: 100%;
+    height: 300px;
+    padding-top: 80px;
+    box-sizing: border-box;
+    text-align: center;
+    background: url(../images/pic02.jpg);
+    background-size: cover;
+}
+.index-search .mes p{
+    color: #fff;
+    margin: 0;
+}
+.index-search .mes p:first-child{
+    font-size: 22px;
+}
+.index-search .mes p:last-child{
+    font-size: 13px;
+}
+.index-search .mes span{
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin-top: 10px;
+    border-top: 2px solid #fff;
+    
+    -webkit-transition: width 0.4s ease-in-out;
+    -moz-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.index-search .mes span:hover{
+    width: 300px;
+}
+.index-search .options{
+    height: 36px;
+}
+.index-search input[type="radio"]{
+    width: 240px;
+    height: 36px;
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: 0;
+    position: relative;
+    top: 47px;
+    z-index: 10;
+}
+.index-search .options .select{
+    width: 240px;
+    height: 36px;
+    margin: 0 10px;
+    
+    font-size: 14px;
+    line-height: 36px;
+    text-align: left;
+    color: #B3B3B3;
+    
+    display: inline-block;
+    position: relative;
+    
+    box-sizing: border-box;
+    border: 1px solid #C6B3AF;
+    
+    background: url(../images/icon-7.png) no-repeat 210px 8px,#fff;
+    background-size: 20px;
+}
+.index-search .options .select:last-of-type{
+    visibility: hidden;
+}
+.index-search .options .select span{
+    margin-left: 10px;
+}
+.index-search .options .select .option{
+    width: 240px;
+    background-color: #E3E3E5;
+    position: absolute;
+    z-index: 10;
+    display: none;
+    left: -2px;
+    top: 34px;
+}
+.index-search input[type="radio"]:nth-of-type(1):checked~.options .select,
+.index-search input[type="radio"]:nth-of-type(2):checked~.options .select{
+    top: -1px;
+}
+.index-search input[type="radio"]:nth-of-type(1):checked~.options .select-1{
+    border: 2px solid #AE7271;
+    border-bottom-width: 0;
+}
+.index-search input[type="radio"]:nth-of-type(1):checked~.options .select-1 .option{
+    display: block;
+}
+.index-search input[type="radio"]:nth-of-type(2):checked~.options .select-2{
+    border: 2px solid #AE7271;
+    border-bottom-width: 0;
+}
+.index-search input[type="radio"]:nth-of-type(2):checked~.options .select-2 .option{
+    display: block;
+}
+.index-search input[type="radio"]:nth-of-type(3):checked~.options .select-3{
+    border: 1px solid #C6B3AF;
+}
+.index-search .options .select .option ul{
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    box-sizing: border-box;
+    border: 2px solid #AE7271;
+    border-top-width: 0;
+}
+.index-search .options .select .option ul li{
+    height: 32px;
+    line-height: 32px;
+    text-align: left;
+    padding-left: 40px;
+    list-style: none;
+    cursor: pointer;
+}
+.index-search .options .select .option ul li:hover{
+    background: url(../images/icon-8.png) no-repeat 10px 8px,#BF4E48;
+    background-size: 20px;
+    color: #fff;
+}
+.index-search input[type="submit"]{
+    width: 240px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    margin: 0 10px;
+    border: 0;
+    outline: 0;
+    background-color: #BE4F48;
+    color: #fff;
+    letter-spacing: 30px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: 36px;
+    
+    -webkit-transition: background-color 0.4s ease-in-out;
+    -moz-transition: background-color 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+.index-search input[type="submit"]:hover{
+    background-color: #E31212;
+    border-radius: 3px;
+}
+.index-photo{
+    width: 100%;
+    height: 500px;
+    background-color: #EDEAEA;
+    text-align: center;
+    font-size: 0;
+    overflow: hidden;
+}
+.index-photo .cell{
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    position: relative;
+    top: 50px;
+    box-sizing: border-box;
+}
+.index-photo .cell .img{
+    width: 100%;
+    height: 320px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.index-photo .cell .img img{
+    height: 300px;
+    cursor: pointer;
+}
+.index-photo .cell .mes{
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+}
+.index-photo .cell .mes p:first-child{
+    font-size: 14px;
+    color: #44403F;
+    margin: 0;
+}
+.index-photo .cell .mes p:last-child{
+    font-size: 12px;
+    color: #B3AFAC;
+}
+.index-photo .cell:nth-child(2)>.mes{
+    padding-top: 30px;
+}
+.index-photo .cell:nth-child(2)>.mes p:first-child{
+    font-size: 24px;
+    text-indent: 30px;
+    letter-spacing: 30px;
+}
+.index-photo .cell:nth-child(2)>.mes p:last-child{
+    margin: 0;
+}
+
+.index-panel {
+	margin-top: 114px;
+	width: 1280px;
+	height: 1088px;
+	margin: 0 auto;
+}
+.index-panel .part1 {
+	float: left;
+	width: 850px;
+	height: 566px;
+	background-image: url(../images/pic07.jpg);
+}
+.index-panel .part1 .title {
+	position: relative;
+	top: 132px;
+	text-align: center;
+
+	font-size: 50px;
+	line-height: 76px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	color: #fff;
+}
+.index-panel .part1 .time {
+	position: relative;
+	top: 70px;
+	text-align: center;
+
+	font-size: 158px;
+	line-height: 241px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	color: #fff;
+}
+.index-panel .part1 .text {
+	margin-top: 38px;
+	text-align: center;
+
+	font-size: 22px;
+	line-height: 43px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	color: #fff;
+}
+.index-panel .part2 {
+	width: 430px;
+	height: 566px;
+	float: left;
+}
+.index-panel .part2 .title{
+	position: relative;
+	top: 165px;
+	left: 162px;
+}
+.index-panel .part2 .text {
+	float: left;
+	margin-top: 215px;
+	margin-left: 70px;
+	width: 288px;
+	font-size: 12px;
+	font-family: "宋体";
+	line-height: 30px;
+	color: #aaa;
+
+}
+.index-panel .part2 .button {
+    float: left;
+    margin-top: 48px;
+    margin-left: 161px;
+    width: 107px;
+    height: 35px;
+	background-image: url(../images/panel-button.jpg);
+}
+.index-panel .part2 .button a {
+	font-style: 12px;
+	line-height: 31px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	color: #e25c60;
+	text-align: center;
+}
+.index-panel .part3 {
+	float: left;
+	width: 424px;
+	height: 521px;
+	background-color: #e74f4d;
+}
+.index-panel .part3 .text{
+	padding-top: 172px;
+	font-size: 21px;
+	line-height: 30px;
+	font-family: "黑体";
+	color: #fff;
+	text-align: center;
+}
+.index-panel .part3 .line img {
+	position: relative;
+	margin: 0 auto;
+	top: 24px;
+}
+.index-panel .part3 .button {
+    width: 170px;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    top: 48px;
+	background-image: url(../images/panel-part3button.jpg);
+
+}
+.index-panel .part3 .button a {
+	font-size: 21px;
+	line-height: 24px;
+	font-family: "黑体";
+	color:  #e74f4d;
+	text-align: center;
+	padding-top: 10px;
+}
+.index-panel .part4 {
+	float: left;
+	width: 424px;
+	height: 521px;
+	background-color: #ccc;
+}
+.index-panel .part4 .text{
+	padding-top: 172px;
+	font-size: 21px;
+	line-height: 30px;
+	font-family: "黑体";
+	color: #fff;
+	text-align: center;
+}
+.index-panel .part4 .line img {
+	position: relative;
+	margin: 0 auto;
+	top: 24px;
+}
+.index-panel .part4 .button {
+    width: 170px;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    top: 48px;
+	background-image: url(../images/panel-part3button.jpg);
+
+}
+.index-panel .part4 .button a {
+	font-size: 21px;
+	line-height: 24px;
+	font-family: "黑体";
+	color:  #e74f4d;
+	text-align: center;
+	padding-top: 10px;
+}
+.index-panel .part5 {
+	float: right;
+}

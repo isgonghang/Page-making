@@ -1,0 +1,35 @@
+
+.public-header {
+	width: 1280px;
+	height: 56px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.public-header .logo .pic img {
+    float: left;
+    margin-left: 59px;
+    margin-top: 13px;
+}
+.public-header .logo .text a {
+	float: left;
+	margin-top: 18px;
+	margin-left: 12px;
+	font-size: 21px;
+	font-family: "黑体";
+	color: #393a3a;
+}
+.public-header .nav {
+	float: right;
+	margin-right: 67px;
+	margin-top: 16px;
+}
+.public-header .nav li {
+	float: left;
+	margin-left: 46px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.public-header .nav li img {
+	float: left;
+	margin-right: 4px;
+}
